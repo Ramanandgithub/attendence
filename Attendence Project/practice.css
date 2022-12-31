@@ -1,0 +1,177 @@
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
+  
+  .content {
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+    background-size: cover;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    
+}
+.content{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    /* background: url(/teambackground/team.jpg); */
+    
+
+
+    background-position: bottom;
+    background-attachment:scroll;
+    
+}
+.cards{
+    width: 15vw;
+    height: 40vh;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px 2px solid black;
+    /* justify-content: space-evenly; */
+    
+    background-color: dodgerblue;
+    cursor: pointer;
+
+}
+.cards:hover{
+    width: 30vw;
+    height: 90vh;
+    flex-direction: column;
+    font-family: 'Ms Madi', cursive;
+
+}
+.sub-card{
+    display: none;
+}
+
+.cards:hover .sub-card{
+    display: block;
+    width: 29vw;
+    height: fit-content;
+    text-align: center;
+    
+    /* position: absolute; */
+   
+    flex-direction: column;
+}
+.cards:hover  .name-1 h3{
+    margin-top: 8px;
+}
+.head{
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: capitalize;
+    margin-top: 10px;
+    
+   
+}
+.head span{
+    color: blue;
+    font-family: 'Ms Madi', cursive;
+}
+.all{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.cards .image-1 img{
+    width: 8vw;
+    height: 17vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: beige;
+    margin-top: 2px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.cards .name-1 h3{
+    font-family: 'Crimson Text', serif;
+    
+    text-align: center;
+    text-transform:capitalize;
+    
+}
+.cards .button-2{
+    text-align: center;
+}
+.cards .button-2 .btn-1{
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right: 3px;
+    border: 2px solid black;
+    border-radius: 11px;
+
+
+}
+.cards .pera p{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.cards .button-2 .btn-1 .link{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    
+
+    
+}
+.cards .button-2 .btn-1:hover{
+
+    font-family: 'Lato', sans-serif;
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* ============================
+media query syntex
+============================ */
+
+
+@media (max-width: 600px){
+    .all{
+        flex-direction: column;
+
+    }
+    .cards{
+        width: 50vw;
+        height: fit-content;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    
+    }
+    .cards:hover{
+        width: 50vw;
+        height: fit-content;
+    }
+    .cards .image-1 img{
+        width: 30vw;
+        height: 17vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        background-color: beige;
+        margin-top: 2px;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+}
+

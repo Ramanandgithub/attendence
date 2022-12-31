@@ -1,0 +1,137 @@
+
+
+table,
+th,
+td {
+    border: 1.5px solid black;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+
+    /* display: flex; */
+}
+
+td,
+th {
+    text-align: center;
+    padding: 8px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: #B6E3E3;
+    /* font-family: cursive; */
+    font-family: system-ui;
+
+
+
+
+
+}
+
+#xyz h3 {
+    font-family: 'Courgette', cursive;
+}
+#xyz h3 span{
+    color: dodgerblue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+p {
+    color: dodgerblue;
+}
+
+#ab {
+    text-align: center;
+
+}
+
+.rollnum {
+    text-align: center;
+}
+
+table {
+    background-color: #d3d2bc;
+    align-content: center;
+    /* padding-left: 50px;
+                        margin-left: 10px;
+                        margin-right: 10px; */
+    border: 2px solid black;
+    text-align: center;
+
+}
+
+#check:active {
+    cursor: pointer;
+
+
+}
+
+.name {
+
+    color: black;
+}
+
+h3 {
+    /* text-align: center; */
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table{
+    margin-top: 100px;
+}
+
+input.sizecheck {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+
+input.sizecheck:active {
+    background-color: blue;
+    color: blue;
+}
+
+#ab input {
+    border: 2px solid balck;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+#ab input:hover {
+
+    background-color: dodgerblue;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+caption {
+    margin-bottom: 20px;
+
+}
